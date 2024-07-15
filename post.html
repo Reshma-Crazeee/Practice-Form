@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Ad</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>Practice Form</h1>
+    <div class="container">
+        <div>
+
+            <button><a href="/empty.html" style="text-decoration: none; color: Black;" target="_parent">All categories</a></button>
+            <button><a href="/empty.html" style="text-decoration: none; color: Black;" target="_parent">Single category</a></button>
+            <button><a href="/empty.html" style="text-decoration: none; color: Black;" target="_parent">All Adverts</a></button>
+            <button><a href="/empty.html" style="text-decoration: none; color: Black;" target="_parent">Single Advert</a></button>
+            <button><a href="/empty.html" style="text-decoration: none; color: Black;" target="_parent">All Locations</a></button>
+            <!-- <button onclick="document.location=''">Post Ad</button> -->
+            <button><a href="/Post.html" style="text-decoration: none; color: Black;" target="_parent">Post Ad</a></button>
+            <button><a href="/empty.html" style="text-decoration: none; color: Black;" target="_parent">My ads</a></button>
+        </div>
+        <div><h3>Ad details</h3></div>
+        <form>
+            <label>Title<b id="mandatory">*</b></label>
+            <input type="text" id="Title" name="Title" required><br>
+            <br>
+            <label>Category<b id="mandatory">*</b></label>
+            <select>
+                <option>- Select a category -</option>
+                <option value="For Sale">For Sale</option>
+                <option value="Vehicles">Vehicles</option>
+                <option value="Services">Services</option>
+                <option value="Real Estate">Real Estate</option>
+                <option value="Jobs">Jobs</option>
+                <option value="Classes">Classes</option>
+            </select><br><br>
+            <select>
+                <option >-Sub categories-</option>
+                <option value="Boats- Ships">Boats- Ships</option>
+                <option value="Cars - Parts">Cars - Parts</option>
+                <option value="RVs - Campers - Caravans">RVs - Campers - Caravans</option>
+                <option value="Trucks - Commerical vehicles">Trucks - Commerical vehicles</option>
+            </select><br><br>
+            <select>
+                <option >-Sub categories-</option>
+                <option value="Second hand cars in Bangladesh">Second hand cars in Bangladesh</option>
+                <option value="Second hand cars in Newzeland">Second hand cars in Newzeland</option>
+                <option value="Used cars in Australia">Used cars in Australia</option>
+            </select>
+            <br><br>
+            <!-- <label for="">Seller Type</label>
+            <select>
+                <option >-None-</option>
+                <option value="Owner">Owner</option>
+                <option value="Agent">Agent</option>
+                <option value="Others">Others</option>
+            </select> -->
+            <br><br>
+            <label for="">Trim/ Edition<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Transmission<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Registration year<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Fuel type<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Kilometers run<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Model<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Year of Manufacture<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Condition<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Body type<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Price Final Status<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Engine capacity<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Posted on<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Sellers Name<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Contact Numbers<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Source Link<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">Year of Production<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+            <br><br>
+            <label for="">version<b id="mandatory">*</b></label>
+            <input type="text" name="brand" required>
+
+            <br><br>
+            <label for="">Price</label>
+            <input type="number" placeholder="0.00">
+            <select>
+                <option >- -- -</option>
+                <option value="USD">USD</option>
+                <option value="AUD">AUD</option>
+                <option value="TK">TK</option>
+            </select><br><br>
+            <label for="">Tag</label>
+            <select>
+                <option >-Select a tag-</option>
+                <option value="Sale">Sale</option>
+            </select><br><br>
+            <label for="">Description</label>
+            <textarea name="" id="" class="desc">
+                
+            </textarea>
+            <br><br>
+            <h3>Images & Video</h3>
+            <label for="">Images</label>
+            <input type="file" placeholder="➕Upload Image(s)" name="filename" multiple="multiple" style="background-color: #3a4cf5;color: white;"></input><p><b>Drag & Drop Image(s)</b> first Image will be your main photo</p>
+            <h3>Contact details</h3>
+            <label for="">Address</label>
+            <textarea class="desc"></textarea><br><br>
+            <label for="">Location</label>
+            <select>
+                <option >-Select a country-</option>
+                <option value="United States">United States</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Newzeland">Newzeland</option>
+                <option value="Australia">Australia</option>
+            </select><br><br>
+            <p style="color: #0a7cd4;"><input type="checkbox" required>By submitting this form you agree to the Privacy Policy and the storing of the submitted information.<b id="mandatory">*</b></p>
+            <button style="background-color: #03905a;color: white;">➕Post Ad</button>
+            <button>✖Cancel</button>
+        </form>
+    </div>
+</body>
+</html>
